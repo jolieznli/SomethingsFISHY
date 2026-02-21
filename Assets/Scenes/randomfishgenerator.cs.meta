@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2d5b4b9c47b9942609a8c5efef4801c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - endangeredfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - endangeredfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - invasivefishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - invasivefishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - normalfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - normalfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
