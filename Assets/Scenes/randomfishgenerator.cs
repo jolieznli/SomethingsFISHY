@@ -37,7 +37,7 @@ public class randomfishgenerator : MonoBehaviour
 
             int randomIndex = Random.Range(0, fishPrefabs.Length);
             //Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.identity);
-            Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.Euler(0, 0, 90));
+            Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.Euler(90, 0, 90));
         }
     }
 }

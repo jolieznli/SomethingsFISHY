@@ -4,12 +4,12 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - endangeredfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  - endangeredfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  - invasivefishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  - invasivefishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  - normalfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  - normalfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  - endangeredfishPrefab: {fileID: 919132149155446097, guid: 88e0a99b87d514318954006fc9a87d1e, type: 3}
+  - endangeredfishBabyPrefab: {fileID: 919132149155446097, guid: e3830fc8443f94295a85213eca5c0616, type: 3}
+  - invasivefishPrefab: {fileID: 919132149155446097, guid: 60239559d9eed40a2ab24ce75ab3a33b, type: 3}
+  - invasivefishBabyPrefab: {fileID: 919132149155446097, guid: c2445f0d0dbf24c25a3ebecaa6a97f4c, type: 3}
+  - normalfishPrefab: {fileID: 919132149155446097, guid: bfb6647c7b96845db983223ba1255a03, type: 3}
+  - normalfishBabyPrefab: {fileID: 919132149155446097, guid: f20a221460f0c42e9bce3c5f8feacc89, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
