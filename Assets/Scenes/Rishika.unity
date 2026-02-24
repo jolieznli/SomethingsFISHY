@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 475500071}
   - component: {fileID: 475500070}
   m_Layer: 0
-  m_Name: fishSpawner
+  m_Name: fishSpawner1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,12 +245,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5b4b9c47b9942609a8c5efef4801c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endangeredfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  endangeredfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  invasivefishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  invasivefishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  normalfishPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
-  normalfishBabyPrefab: {fileID: 8146332326329246335, guid: efcc1b1c1dfaf4e6991b1db1fa1948ff, type: 3}
+  endangeredfishPrefab: {fileID: 1939850732303878197, guid: d6ba6fd6a319943349a933aaf36e099d, type: 3}
+  endangeredfishBabyPrefab: {fileID: 619087773321265495, guid: 117c7decebeaa4cd3a675e594b67bcb3, type: 3}
+  invasivefishPrefab: {fileID: 4558286953649183726, guid: 34e293a7820294c97b7c5076860c1f9b, type: 3}
+  invasivefishBabyPrefab: {fileID: 1078953521541538705, guid: a572e02cca0aa41169f26a79374382b2, type: 3}
+  normalfishPrefab: {fileID: 3569356425763204523, guid: c8814cb224fc14e5485be26d8377acce, type: 3}
+  normalfishBabyPrefab: {fileID: 3080453486697628204, guid: 5bd4b38c5138f472d8a0764ee0166ff9, type: 3}
 --- !u!4 &475500071
 Transform:
   m_ObjectHideFlags: 0
@@ -259,13 +259,63 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475500069}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.56212896, y: -0, z: -0, w: 0.8270496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -68.406, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1106194242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106194244}
+  - component: {fileID: 1106194243}
+  m_Layer: 0
+  m_Name: fishSpawner2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1106194243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106194242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5b4b9c47b9942609a8c5efef4801c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endangeredfishPrefab: {fileID: 1939850732303878197, guid: 14761054965fe4e02915e8cf61dc5e7f, type: 3}
+  endangeredfishBabyPrefab: {fileID: 619087773321265495, guid: 2ab485fd7299d46168b0feb6acad6236, type: 3}
+  invasivefishPrefab: {fileID: 4558286953649183726, guid: c4f3d049f2b494cb0adf302718a13bed, type: 3}
+  invasivefishBabyPrefab: {fileID: 1078953521541538705, guid: 34a7c253ccdd04c029c89fad21d0014c, type: 3}
+  normalfishPrefab: {fileID: 3569356425763204523, guid: bb349c97640ef43f7adac6fc5ce4ccec, type: 3}
+  normalfishBabyPrefab: {fileID: 3080453486697628204, guid: d8c8ae0cbef37442a8659bac0d6bc989, type: 3}
+--- !u!4 &1106194244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106194242}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.73, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1596104929
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,3 +415,4 @@ SceneRoots:
   - {fileID: 1596104932}
   - {fileID: 128135158}
   - {fileID: 475500071}
+  - {fileID: 1106194244}
