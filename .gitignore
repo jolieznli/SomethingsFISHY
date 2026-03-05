@@ -79,4 +79,5 @@ Packages/manifest.json
 .vscode/launch.json
 .vscode/extensions.json
 Packages/manifest.json
-/Packages
+Packages/packages-lock.json
+Packages/manifest.json
