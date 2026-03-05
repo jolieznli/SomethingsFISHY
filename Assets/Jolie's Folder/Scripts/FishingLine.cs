@@ -15,7 +15,7 @@ public class FishingLine : MonoBehaviour
         lineRenderer.positionCount = 2;
 
         // Force it into LOCAL mode
-        lineRenderer.useWorldSpace = false;
+        lineRenderer.useWorldSpace = true;
 
         // Make it thin in code so inspector doesn’t mess it up
         lineRenderer.startWidth = 0.02f;
@@ -24,8 +24,7 @@ public class FishingLine : MonoBehaviour
 
     void LateUpdate()
     {
-        // Draw in local space
-        lineRenderer.SetPosition(0, rodTip.localPosition);
-        lineRenderer.SetPosition(1, hook.localPosition);
+        lineRenderer.SetPosition(0, rodTip.position);
+        lineRenderer.SetPosition(1, hook.position);
     }
 }

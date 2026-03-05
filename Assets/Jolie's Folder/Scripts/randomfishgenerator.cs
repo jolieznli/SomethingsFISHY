@@ -20,8 +20,8 @@ public class randomfishgenerator : MonoBehaviour
         {
             currentTime = 0;
 
-            float offsetX = Random.Range(-5f, 5f);
-            float offsetY = Random.Range(-5f, 5f);
+            float offsetX = Random.Range(-0.02f, 0.02f);
+            float offsetY = Random.Range(-0.02f, 0.02f);
             float offsetZ = 0;
             Vector3 spawnPosition = transform.position + new Vector3(offsetX, offsetY, offsetZ);
 
@@ -37,7 +37,10 @@ public class randomfishgenerator : MonoBehaviour
 
             int randomIndex = Random.Range(0, fishPrefabs.Length);
             //Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.identity);
-            Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.Euler(90, 0, 90));
+            GameObject fish = Instantiate(fishPrefabs[randomIndex], spawnPosition, Quaternion.identity);
+
+            // Scale everything down to 30% of original size
+            fish.transform.localScale *= 0.3f;
         }
     }
 }
