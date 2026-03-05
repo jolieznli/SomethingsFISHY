@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c2445f0d0dbf24c25a3ebecaa6a97f4c, type: 3}
       insertIndex: -1
       addedObject: {fileID: -4365932975085831403}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c2445f0d0dbf24c25a3ebecaa6a97f4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3465416699536724133}
   m_SourcePrefab: {fileID: 100100000, guid: c2445f0d0dbf24c25a3ebecaa6a97f4c, type: 3}
 --- !u!1 &1078953521541538705 stripped
 GameObject:
@@ -77,3 +80,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e126971d9a9684564ada0712a33aa198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3465416699536724133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078953521541538705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ba37caf8304430b9359c1cb158145d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FishName: Invasive Fish
+  FishDescription: These fish are invasive. Rahh!
+  FishType: 1
+  FishAge: 0
