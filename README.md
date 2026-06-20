@@ -2,7 +2,7 @@
 
 A virtual reality fishing game developed in Unity for the PICO XR headset as part of Stanford's CS11SI: Introduction to Virtual Reality Design.
 
-![Demo](Assets/SomethingsFishyThumbnail.png)
+![Demo](Assets/SomethingsFishyThumbnail2.png)
 
 ## Demo
 
@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=1VS0IfzcgBE
 
 Something's Fishy places players on a fishing boat in the open ocean where they can catch fish using an interactive fishing rod. Players reel in fish, manage their catches, and explore a dynamic marine environment designed for immersive VR gameplay.
 
-![Demo](Assets/SomethingsFishyThumbnail2.png)
+![Demo](Assets/SomethingsFishyThumbnail.png)
 
 ## Features
 
