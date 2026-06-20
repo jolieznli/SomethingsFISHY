@@ -6,7 +6,7 @@ A virtual reality fishing game developed in Unity for the PICO XR headset as par
 
 ## Demo
 
-https://www.youtube.com/watch?v=1VS0IfzcgBE
+[PICO Gameplay Demo](https://www.youtube.com/watch?v=1VS0IfzcgBE)
 
 ## Overview
 
