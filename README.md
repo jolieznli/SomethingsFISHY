@@ -35,10 +35,6 @@ Something's Fishy places players on a fishing boat in the open ocean where they 
 * Improved fish behaviors and movement
 * Audio and haptic feedback for greater immersion
 
-## Team
-
-Developed by a Stanford CS11SI project team.
-
 ## Acknowledgments
 
-Special thanks to the CS11SI teaching team for their support and guidance throughout the project.
+Special thanks to the CS11SI teaching team for their support and guidance throughout the project! 
